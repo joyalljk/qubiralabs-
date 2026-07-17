@@ -1364,7 +1364,7 @@ button {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1.3fr 0.8fr 0.8fr 1.1fr;
+    grid-template-columns: 1.5fr 1fr 1fr;
     gap: 3rem;
     margin-bottom: 4rem;
 }
