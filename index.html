@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Qubira Labs - Premium IT Firm delivering Next-Gen Web, Mobile, Cloud, Enterprise & AI solutions. Let's build the digital future together.">
+    <title>Qubira Labs | Architecting the Digital Future</title>
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar-header" id="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo">
+                <img src="assets/logo_full.jpg" alt="Qubira Labs Logo" class="logo-img">
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#industries" class="nav-link">Industries</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#technologies" class="nav-link">Tech</a>
+                <a href="#careers" class="nav-link">Careers</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm btn-nav-cta">Get in Touch</a>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <i data-lucide="menu" id="menu-icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section (Hero) -->
+    <section id="home" class="hero-section">
+        <div class="hero-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-wrapper">
+                    <span class="badge"><i data-lucide="sparkles"></i> Pioneering Innovation</span>
+                </div>
+                <h1 class="hero-title">Architecting the <span class="text-gradient">Digital Future</span></h1>
+                <p class="hero-subtitle">We build premium bespoke software, scalable mobile apps, robust enterprise systems, and next-generation AI automation solutions that empower companies to scale.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg" onclick="openBookingModal(event)">Book a Free Consultation</a>
+                    <a href="#services" class="btn btn-secondary btn-lg">Explore Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num">99%</span>
+                        <span class="stat-label">Client Success</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label">Tech Experts</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">100+</span>
+                        <span class="stat-label">Projects Delivered</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card-wrapper">
+                    <div class="visual-card main-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="card-title">qubira-system.sh</span>
+                        </div>
+                        <div class="card-body coding-font">
+                            <p class="code-line"><span class="code-keyword">const</span> ITFirm = <span class="code-class">Company</span>.<span class="code-func">init</span>(<span class="code-str">"Qubira Labs"</span>);</p>
+                            <p class="code-line">ITFirm.<span class="code-func">setValues</span>([<span class="code-str">"Innovation"</span>, <span class="code-str">"Quality"</span>, <span class="code-str">"Speed"</span>]);</p>
+                            <p class="code-line">ITFirm.<span class="code-func">deliverSolutions</span>({</p>
+                            <p class="code-line-indented">web: <span class="code-bool">true</span>,</p>
+                            <p class="code-line-indented">mobile: <span class="code-bool">true</span>,</p>
+                            <p class="code-line-indented">ai: <span class="code-bool">true</span>,</p>
+                            <p class="code-line-indented">cloud: <span class="code-bool">true</span></p>
+                            <p class="code-line">});</p>
+                            <p class="code-line"><span class="code-keyword">await</span> ITFirm.<span class="code-func">scaleBusiness</span>(<span class="code-var">client</span>);</p>
+                            <p class="code-line text-cursor"><span class="code-comment">// Deploying global systems...</span><span class="cursor">|</span></p>
+                        </div>
+                    </div>
+                    <div class="visual-card floating-card">
+                        <div class="floating-inner">
+                            <div class="circle-progress">
+                                <i data-lucide="trending-up"></i>
+                            </div>
+                            <div>
+                                <h4>Efficiency</h4>
+                                <p>+140% Growth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">About Us</span>
+                <h2>Empowering Businesses Through Modern Technology</h2>
+                <p>We are a dedicated team of engineers, designers, and consultants focused on transforming concepts into powerful digital experiences.</p>
+            </div>
+
+            <!-- About Subsections -->
+            <div class="about-grid">
+                <div class="about-card story-card glass-panel">
+                    <div class="card-icon-wrapper">
+                        <i data-lucide="history"></i>
+                    </div>
+                    <h3>Our Story</h3>
+                    <p>Founded by a group of passionate tech visionaries, QUBIRA LABS started with a single goal: to bridge the gap between complex engineering and elegant, user-centric software. Today, we are a leading technology partner helping startups and enterprises around the globe automate, digitize, and scale their operations.</p>
+                </div>
+
+                <div class="about-card vision-mission-card glass-panel">
+                    <div class="card-icon-wrapper">
+                        <i data-lucide="eye"></i>
+                    </div>
+                    <h3>Vision & Mission</h3>
+                    <p><strong>Our Vision:</strong> To be the global benchmark for high-performance software engineering and digital transformation, fostering growth and technological maturity for every business.</p>
+                    <p><strong>Our Mission:</strong> To engineer innovative, scalable, and secure digital products that solve complex business challenges, drive exceptional efficiency, and exceed user expectations.</p>
+                </div>
+            </div>
+
+            <!-- Core Values -->
+            <div class="core-values-wrapper">
+                <h3 class="subsection-title text-center">Our Core Values</h3>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="val-num">01</div>
+                        <h4>Innovation</h4>
+                        <p>Constantly exploring cutting-edge tools to deliver next-gen advancements.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="val-num">02</div>
+                        <h4>Client-Centricity</h4>
+                        <p>Putting our clients' needs, vision, and user outcomes at the center of our engineering.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="val-num">03</div>
+                        <h4>Integrity</h4>
+                        <p>Ensuring honest communication, absolute data privacy, and ethical standards.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="val-num">04</div>
+                        <h4>Excellence</h4>
+                        <p>Refusing to settle for anything less than robust, polished, and maintainable systems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leadership -->
+            <div class="leadership-wrapper">
+                <h3 class="subsection-title text-center">Our Leadership</h3>
+                <div class="leadership-grid">
+                    <div class="leader-card glass-panel">
+                        <div class="leader-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <h4>Rayhan Qubira</h4>
+                        <p class="leader-role">Founder & Chief Executive Officer</p>
+                        <div class="leader-socials">
+                            <a href="#"><i data-lucide="linkedin"></i></a>
+                            <a href="#"><i data-lucide="twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="leader-card glass-panel">
+                        <div class="leader-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <h4>Dr. Sarah Chen</h4>
+                        <p class="leader-role">Chief Technology Officer</p>
+                        <div class="leader-socials">
+                            <a href="#"><i data-lucide="linkedin"></i></a>
+                            <a href="#"><i data-lucide="github"></i></a>
+                        </div>
+                    </div>
+                    <div class="leader-card glass-panel">
+                        <div class="leader-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <h4>Marcus Vance</h4>
+                        <p class="leader-role">Chief Operations Officer</p>
+                        <div class="leader-socials">
+                            <a href="#"><i data-lucide="linkedin"></i></a>
+                            <a href="#"><i data-lucide="globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why QUBIRA -->
+            <div class="why-qubira-wrapper glass-panel">
+                <div class="why-grid">
+                    <div class="why-content">
+                        <h3>Why QUBIRA?</h3>
+                        <p>We don't just write code. We partner with you to align technology with your core business strategy. Here is what sets us apart:</p>
+                        <ul class="why-list">
+                            <li><i data-lucide="check-circle-2"></i> <strong>Rigorous Engineering:</strong> Clean architectures, modern design patterns, and robust codebases.</li>
+                            <li><i data-lucide="check-circle-2"></i> <strong>Agile & Fast Delivery:</strong> Adaptive sprint cycles that deliver functional features incrementally.</li>
+                            <li><i data-lucide="check-circle-2"></i> <strong>End-to-End Support:</strong> We guide you from early product discovery to post-launch scaling and support.</li>
+                            <li><i data-lucide="check-circle-2"></i> <strong>Tailored Development Models:</strong> Scale your development bandwidth instantly with our dedicated resources.</li>
+                        </ul>
+                    </div>
+                    <div class="why-graphic">
+                        <div class="glowing-circle">
+                            <img src="assets/logo.jpg" alt="Qubira Labs Logo" class="glowing-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Services</span>
+                <h2>What We Do Best</h2>
+                <p>We provide full-spectrum digital solutions designed to deliver tangible competitive advantages.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- 1. Web Development -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Web Development')">
+                    <div class="service-icon"><i data-lucide="globe-2"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Highly scalable websites, PWAs, and dynamic web applications built with modern frontend frameworks and robust server logic.</p>
+                </div>
+                <!-- 2. Mobile App Development -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Mobile App Development')">
+                    <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native iOS & Android apps and cross-platform solutions (Flutter/React Native) featuring fluid UI and offline capabilities.</p>
+                </div>
+                <!-- 3. Custom Software Development -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Custom Software Development')">
+                    <div class="service-icon"><i data-lucide="terminal"></i></div>
+                    <h3>Custom Software Development</h3>
+                    <p>Bespoke software systems engineered to address your unique structural and operational requirements with zero bloat.</p>
+                </div>
+                <!-- 4. UI/UX Design -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('UI/UX Design')">
+                    <div class="service-icon"><i data-lucide="palette"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered interface design, thorough user persona research, visual wireframing, and interactive high-fidelity prototypes.</p>
+                </div>
+                <!-- 5. E-Commerce Solutions -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('E-Commerce Solutions')">
+                    <div class="service-icon"><i data-lucide="shopping-cart"></i></div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Tailored online stores, checkout integrations, global multi-currency systems, inventory syncing, and custom management hubs.</p>
+                </div>
+
+                <!-- 7. API Development & Integration -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('API Development & Integration')">
+                    <div class="service-icon"><i data-lucide="git-branch"></i></div>
+                    <h3>API Development & Integration</h3>
+                    <p>Restful and GraphQL API designing, security tokens, and seamless bridging of diverse third-party applications.</p>
+                </div>
+                <!-- 8. AI & Automation -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('AI & Automation')">
+                    <div class="service-icon"><i data-lucide="brain-circuit"></i></div>
+                    <h3>AI & Automation</h3>
+                    <p>Integrating large language models, smart automation pipelines, automated data analysis, and predictive model training.</p>
+                </div>
+                <!-- 9. Digital Marketing -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Digital Marketing')">
+                    <div class="service-icon"><i data-lucide="megaphone"></i></div>
+                    <h3>Digital Marketing</h3>
+                    <p>Targeted SEO campaigns, data-driven lead generation strategies, social media optimization, and brand positioning plans.</p>
+                </div>
+                <!-- 10. IT Consulting -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('IT Consulting')">
+                    <div class="service-icon"><i data-lucide="bar-chart-3"></i></div>
+                    <h3>IT Consulting</h3>
+                    <p>Tech stack selection, architecture auditing, security auditing, digital transformation roadmaps, and software planning.</p>
+                </div>
+                <!-- 11. Maintenance & Support -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Maintenance & Support')">
+                    <div class="service-icon"><i data-lucide="wrench"></i></div>
+                    <h3>Maintenance & Support</h3>
+                    <p>24/7 server monitoring, regular patch deployments, security audit fixes, performance optimizations, and user helpdesks.</p>
+                </div>
+                <!-- 12. Dedicated Development Team -->
+                <div class="service-card glass-panel" onclick="selectServiceAndScroll('Dedicated Development Team')">
+                    <div class="service-icon"><i data-lucide="users-round"></i></div>
+                    <h3>Dedicated Development Team</h3>
+                    <p>Highly qualified full-time software engineers, QA specialists, and PMs scaling your internal teams immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Industries We Serve</span>
+                <h2>Tailored Expertise Across Diverse Verticals</h2>
+                <p>We speak the language of your industry, aligning regulatory requirements with modern operational processes.</p>
+            </div>
+
+            <div class="industries-grid">
+                <!-- 1. Healthcare -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="activity"></i></div>
+                    <div class="industry-info">
+                        <h3>Healthcare</h3>
+                        <p>HIPAA-compliant platforms, telehealth application portals, and electronic health record (EHR) systems integrations.</p>
+                    </div>
+                </div>
+                <!-- 2. Education -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="graduation-cap"></i></div>
+                    <div class="industry-info">
+                        <h3>Education</h3>
+                        <p>Custom LMS systems, virtual lecture rooms, online learning apps, exam engines, and institute administration software.</p>
+                    </div>
+                </div>
+                <!-- 3. Real Estate -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="home"></i></div>
+                    <div class="industry-info">
+                        <h3>Real Estate</h3>
+                        <p>Interactive property listings, virtual booking agents, brokerage CRMs, and rent management platforms.</p>
+                    </div>
+                </div>
+                <!-- 4. Retail & E-Commerce -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="shopping-bag"></i></div>
+                    <div class="industry-info">
+                        <h3>Retail & E-Commerce</h3>
+                        <p>Unified POS integrations, multi-vendor marketplaces, smart recommendations engines, and customer loyalty dashboards.</p>
+                    </div>
+                </div>
+                <!-- 5. Hospitality -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="hotel"></i></div>
+                    <div class="industry-info">
+                        <h3>Hospitality</h3>
+                        <p>Custom reservation engines, online room bookings, contactless check-ins, guest management portals, and automated messaging.</p>
+                    </div>
+                </div>
+                <!-- 6. Manufacturing -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="factory"></i></div>
+                    <div class="industry-info">
+                        <h3>Manufacturing</h3>
+                        <p>Supply chain tracking, plant automation systems, equipment health monitors, and digital dashboard metrics.</p>
+                    </div>
+                </div>
+                <!-- 7. Logistics -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="truck"></i></div>
+                    <div class="industry-info">
+                        <h3>Logistics</h3>
+                        <p>Real-time vehicle tracking, route optimization engines, dispatch schedules, and automated shipping calculators.</p>
+                    </div>
+                </div>
+                <!-- 8. Finance -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="wallet"></i></div>
+                    <div class="industry-info">
+                        <h3>Finance</h3>
+                        <p>Secure micro-payment gateways, fintech software, ledger audits, compliance automation, and financial tracking apps.</p>
+                    </div>
+                </div>
+                <!-- 9. Startups -->
+                <div class="industry-card glass-panel">
+                    <div class="industry-img-placeholder"><i data-lucide="rocket"></i></div>
+                    <div class="industry-info">
+                        <h3>Startups</h3>
+                        <p>Fast-track MVP engineering, pitch-deck technical support, scalable architectures, and rapid feedback loops.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Solutions</span>
+                <h2>Purpose-Built Digital Paradigms</h2>
+                <p>Strategic frameworks designed to solve pressing structural problems and scale operations instantly.</p>
+            </div>
+
+            <div class="solutions-grid">
+                <!-- Enterprise Solutions -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="building-2" class="sol-icon"></i>
+                        <h3>Enterprise Solutions</h3>
+                    </div>
+                    <p>Robust frameworks that consolidate workflows, manage massive workloads securely, and enable cross-department database cohesion.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Multi-tier encryption</li>
+                        <li><i data-lucide="check"></i> Legacy system migrations</li>
+                        <li><i data-lucide="check"></i> 99.99% uptime architectures</li>
+                    </ul>
+                </div>
+                <!-- Startup Packages -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="shapes" class="sol-icon"></i>
+                        <h3>Startup Packages</h3>
+                    </div>
+                    <p>Agile development packages specifically targeted to ship high-quality products to market under tight schedules.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Rapid MVP launch (4-8 weeks)</li>
+                        <li><i data-lucide="check"></i> Scale-ready codebase architecture</li>
+                        <li><i data-lucide="check"></i> Constant feedback iteration</li>
+                    </ul>
+                </div>
+                <!-- Business Automation -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="shuffle" class="sol-icon"></i>
+                        <h3>Business Automation</h3>
+                    </div>
+                    <p>Custom scripts, machine intelligence integrations, and automated pipelines that replace hours of human labor.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Automated invoice reporting</li>
+                        <li><i data-lucide="check"></i> AI customer chat models</li>
+                        <li><i data-lucide="check"></i> Dynamic data scraping</li>
+                    </ul>
+                </div>
+                <!-- CRM & ERP Solutions -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="briefcase" class="sol-icon"></i>
+                        <h3>CRM & ERP Solutions</h3>
+                    </div>
+                    <p>Tailored dashboards mapping client life cycles, inventory, sales funnels, human resources, and business audits.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Custom data columns</li>
+                        <li><i data-lucide="check"></i> Integrated analytical graphs</li>
+                        <li><i data-lucide="check"></i> Multi-level role permissions</li>
+                    </ul>
+                </div>
+                <!-- SaaS Development -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="layers" class="sol-icon"></i>
+                        <h3>SaaS Development</h3>
+                    </div>
+                    <p>End-to-end multi-tenant platform building incorporating scalable subscription matrices and analytics dashboards.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Custom billing hooks (Stripe)</li>
+                        <li><i data-lucide="check"></i> Tenant partition security</li>
+                        <li><i data-lucide="check"></i> Subscription management panel</li>
+                    </ul>
+                </div>
+                <!-- Digital Transformation -->
+                <div class="solution-card glass-panel">
+                    <div class="sol-header">
+                        <i data-lucide="refresh-cw" class="sol-icon"></i>
+                        <h3>Digital Transformation</h3>
+                    </div>
+                    <p>Consulting and restructuring to adapt existing operational workflows to modern digital-first standards.</p>
+                    <ul class="sol-features">
+                        <li><i data-lucide="check"></i> Paperless system conversions</li>
+                        <li><i data-lucide="check"></i> Collaborative cloud storage</li>
+                        <li><i data-lucide="check"></i> Employee tooling updates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Process Section -->
+    <section id="process" class="process-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Our Process</span>
+                <h2>How We Deliver Excellence</h2>
+                <p>Our structured, transparent methodology ensures alignment at every stage of the development lifecycle.</p>
+            </div>
+
+            <!-- Process Timeline -->
+            <div class="process-timeline">
+                <div class="timeline-line"></div>
+                
+                <!-- 1. Discovery -->
+                <div class="process-step">
+                    <div class="step-marker">1</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="search"></i>
+                            <h3>Discovery</h3>
+                        </div>
+                        <p>We analyze your business, outline constraints, research target user groups, and map the high-level project goals.</p>
+                    </div>
+                </div>
+
+                <!-- 2. Planning -->
+                <div class="process-step">
+                    <div class="step-marker">2</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="calendar"></i>
+                            <h3>Planning</h3>
+                        </div>
+                        <p>We define technology stacks, compile product feature backlogs, outline sprint schedules, and provide budget estimations.</p>
+                    </div>
+                </div>
+
+                <!-- 3. Design -->
+                <div class="process-step">
+                    <div class="step-marker">3</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="layout"></i>
+                            <h3>Design</h3>
+                        </div>
+                        <p>We produce user flows, interactive wireframes, custom visual palettes, and complete, clickable Figma prototypes.</p>
+                    </div>
+                </div>
+
+                <!-- 4. Development -->
+                <div class="process-step">
+                    <div class="step-marker">4</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="code-2"></i>
+                            <h3>Development</h3>
+                        </div>
+                        <p>Our engineers build clean, modular code bases using test-driven practices and strict version-control pipelines.</p>
+                    </div>
+                </div>
+
+                <!-- 5. Testing -->
+                <div class="process-step">
+                    <div class="step-marker">5</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="check-square"></i>
+                            <h3>Testing</h3>
+                        </div>
+                        <p>We execute automated testing, functional validation, responsiveness audits, vulnerability checks, and load tests.</p>
+                    </div>
+                </div>
+
+                <!-- 6. Deployment -->
+                <div class="process-step">
+                    <div class="step-marker">6</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="rocket"></i>
+                            <h3>Deployment</h3>
+                        </div>
+                        <p>We configure staging servers, transition databases, setup CDN delivery networks, and launch onto primary servers.</p>
+                    </div>
+                </div>
+
+                <!-- 7. Support -->
+                <div class="process-step">
+                    <div class="step-marker">7</div>
+                    <div class="step-content glass-panel">
+                        <div class="step-header">
+                            <i data-lucide="life-buoy"></i>
+                            <h3>Support</h3>
+                        </div>
+                        <p>We supply post-launch monitoring, security patch applications, incremental upgrades, and 24/7 server support assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Tech Stack</span>
+                <h2>Modern Stack for High Performance</h2>
+                <p>We select robust and scalable programming technologies specifically suited for each project.</p>
+            </div>
+
+            <!-- Tech Tabs -->
+            <div class="tech-tabs-container">
+                <div class="tech-tabs" id="tech-tabs">
+                    <button class="tech-tab-btn active" data-tab="frontend">Frontend</button>
+                    <button class="tech-tab-btn" data-tab="backend">Backend</button>
+                    <button class="tech-tab-btn" data-tab="mobile">Mobile</button>
+                    <button class="tech-tab-btn" data-tab="database">Database</button>
+                    <button class="tech-tab-btn" data-tab="cloud">Cloud</button>
+                    <button class="tech-tab-btn" data-tab="devops">DevOps</button>
+                    <button class="tech-tab-btn" data-tab="aistack">AI Stack</button>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tech-content-pane active" id="tab-frontend">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="chrome"></i> HTML5 & CSS3</div>
+                        <div class="tech-badge"><i data-lucide="braces"></i> JavaScript (ES6+)</div>
+                        <div class="tech-badge"><i data-lucide="atom"></i> React.js / Next.js</div>
+                        <div class="tech-badge"><i data-lucide="package-open"></i> Vue.js</div>
+                        <div class="tech-badge"><i data-lucide="layers"></i> TailwindCSS</div>
+                        <div class="tech-badge"><i data-lucide="cog"></i> WebAssembly</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-backend">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="square-play"></i> Node.js</div>
+                        <div class="tech-badge"><i data-lucide="code-2"></i> Python / FastAPI</div>
+                        <div class="tech-badge"><i data-lucide="cpu"></i> Go (Golang)</div>
+                        <div class="tech-badge"><i data-lucide="gem"></i> Ruby on Rails</div>
+                        <div class="tech-badge"><i data-lucide="hash"></i> Java / Spring Boot</div>
+                        <div class="tech-badge"><i data-lucide="box"></i> PHP / Laravel</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-mobile">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="smartphone"></i> Swift (iOS Native)</div>
+                        <div class="tech-badge"><i data-lucide="tablet"></i> Kotlin (Android)</div>
+                        <div class="tech-badge"><i data-lucide="atom"></i> React Native</div>
+                        <div class="tech-badge"><i data-lucide="sparkles"></i> Flutter</div>
+                        <div class="tech-badge"><i data-lucide="layers"></i> Capacitor / Ionic</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-database">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="database"></i> PostgreSQL</div>
+                        <div class="tech-badge"><i data-lucide="database"></i> MongoDB</div>
+                        <div class="tech-badge"><i data-lucide="database"></i> Redis (Caching)</div>
+                        <div class="tech-badge"><i data-lucide="database"></i> MySQL</div>
+                        <div class="tech-badge"><i data-lucide="database"></i> Firebase Firestore</div>
+                        <div class="tech-badge"><i data-lucide="database"></i> Elasticsearch</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-cloud">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="cloud"></i> Amazon Web Services (AWS)</div>
+                        <div class="tech-badge"><i data-lucide="cloud"></i> Google Cloud Platform (GCP)</div>
+                        <div class="tech-badge"><i data-lucide="cloud"></i> Microsoft Azure</div>
+                        <div class="tech-badge"><i data-lucide="cloud"></i> DigitalOcean</div>
+                        <div class="tech-badge"><i data-lucide="cloud"></i> Vercel / Netlify</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-devops">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="container"></i> Docker</div>
+                        <div class="tech-badge"><i data-lucide="network"></i> Kubernetes</div>
+                        <div class="tech-badge"><i data-lucide="git-merge"></i> GitHub Actions / GitLab CI</div>
+                        <div class="tech-badge"><i data-lucide="settings-2"></i> Terraform (IaC)</div>
+                        <div class="tech-badge"><i data-lucide="shield-alert"></i> Prometheus & Grafana</div>
+                    </div>
+                </div>
+
+                <div class="tech-content-pane" id="tab-aistack">
+                    <div class="tech-badge-grid">
+                        <div class="tech-badge"><i data-lucide="brain"></i> OpenAI GPT-4 API</div>
+                        <div class="tech-badge"><i data-lucide="brain-circuit"></i> Anthropic Claude API</div>
+                        <div class="tech-badge"><i data-lucide="binary"></i> PyTorch / TensorFlow</div>
+                        <div class="tech-badge"><i data-lucide="link"></i> LangChain / LlamaIndex</div>
+                        <div class="tech-badge"><i data-lucide="folder-tree"></i> Pinecone / ChromaDB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Careers</span>
+                <h2>Join Our Growing Team</h2>
+                <p>At Qubira Labs, we offer an environment that values continuous learning, technical excellence, and mutual respect.</p>
+            </div>
+
+            <!-- Open Positions -->
+            <div class="careers-grid">
+                <div class="career-card glass-panel">
+                    <div class="career-main">
+                        <span class="job-type">Full-Time</span>
+                        <h3>Senior Full-Stack Engineer</h3>
+                        <p class="job-meta"><i data-lucide="map-pin"></i> Remote / Kochi, India</p>
+                        <p class="job-desc">We are looking for a Senior Developer to lead development on modern React and Node.js web applications, integrating complex database connections.</p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm" onclick="openApplyModal('Senior Full-Stack Engineer')">Apply Now</button>
+                </div>
+
+                <div class="career-card glass-panel">
+                    <div class="career-main">
+                        <span class="job-type">Full-Time</span>
+                        <h3>Lead Mobile App Developer</h3>
+                        <p class="job-meta"><i data-lucide="map-pin"></i> Remote / Remote (Global)</p>
+                        <p class="job-desc">Seeking an expert Flutter or React Native developer capable of building complex iOS and Android solutions with dynamic integrations.</p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm" onclick="openApplyModal('Lead Mobile App Developer')">Apply Now</button>
+                </div>
+
+                <div class="career-card glass-panel">
+                    <div class="career-main">
+                        <span class="job-type">Full-Time</span>
+                        <h3>UI/UX Product Designer</h3>
+                        <p class="job-meta"><i data-lucide="map-pin"></i> Kochi Office</p>
+                        <p class="job-desc">Looking for a designer with a strong portfolio of premium software products, dark mode designs, and complex interactive dashboard components.</p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm" onclick="openApplyModal('UI/UX Product Designer')">Apply Now</button>
+                </div>
+
+                <div class="career-card glass-panel">
+                    <div class="career-main">
+                        <span class="job-type">Internship</span>
+                        <h3>Frontend Developer Intern</h3>
+                        <p class="job-meta"><i data-lucide="map-pin"></i> Remote / Kochi Office</p>
+                        <p class="job-desc">A 6-month intensive training program covering HTML, CSS, JavaScript, and React, working directly alongside senior engineering mentors.</p>
+                    </div>
+                    <button class="btn btn-secondary btn-sm" onclick="openApplyModal('Frontend Developer Intern')">Apply for Internship</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Contact Us</span>
+                <h2>Start Your Digital Journey Today</h2>
+                <p>Have an idea or a complex business challenge? Let's discuss how our technical expertise can make it a reality.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Left: Contact Form -->
+                <div class="contact-form-wrapper glass-panel">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form" onsubmit="handleContactSubmit(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Name <span class="required">*</span></label>
+                                <input type="text" id="contact-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email <span class="required">*</span></label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-subject">Subject</label>
+                                <input type="text" id="contact-subject" name="subject">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-service">Select Service <span class="required">*</span></label>
+                                <select id="contact-service" name="service" required style="max-height: 150px; overflow-y: auto;">
+                                    <option value="">-- Choose Service --</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Mobile App Development">Mobile App Development</option>
+                                    <option value="Custom Software Development">Custom Software Development</option>
+                                    <option value="UI/UX Design">UI/UX Design</option>
+                                    <option value="E-Commerce Solutions">E-Commerce Solutions</option>
+
+                                    <option value="API Development & Integration">API Development & Integration</option>
+                                    <option value="AI & Automation">AI & Automation</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="IT Consulting">IT Consulting</option>
+                                    <option value="Maintenance & Support">Maintenance & Support</option>
+                                    <option value="Dedicated Development Team">Dedicated Development Team</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message <span class="required">*</span></label>
+                            <textarea id="contact-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message <i data-lucide="send" class="btn-icon-right"></i></button>
+                    </form>
+                    <div id="contact-success-msg" class="success-banner hidden">
+                        <i data-lucide="check-circle-2"></i>
+                        <div>
+                            <h4>Message Sent!</h4>
+                            <p>Thank you for reaching out. A Qubira Labs solutions architect will contact you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Contact info, office map, book consultation -->
+                <div class="contact-info-wrapper">
+                    <!-- Consultation card -->
+                    <div class="consultation-card glass-panel text-center">
+                        <i data-lucide="calendar" class="card-large-icon"></i>
+                        <h3>Book a Consultation</h3>
+                        <p>Schedule a free 30-minute virtual session with our technology specialists to outline your roadmap.</p>
+                        <button class="btn btn-primary" onclick="openBookingModal(event)">Book Appointment</button>
+                    </div>
+
+                    <!-- Contact channels -->
+                    <div class="info-channels glass-panel">
+                        <div class="channel-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:qubiralabs@gmail.com">qubiralabs@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+919037319640">+91 90373 19640</a></p>
+                                <p class="support-subtext">Mon-Fri: 9 AM - 6 PM (IST)</p>
+                            </div>
+                        </div>
+
+                        <div class="channel-item">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Office Location</h4>
+                                <p><strong>Qubira Labs</strong></p>
+                                <p>Panampally Nagar, Kadavanthra, Ernakulam, Kerala, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <img src="assets/logo_full.jpg" alt="Qubira Labs Logo" class="logo-img">
+                </a>
+                <p class="brand-desc">Architecting next-generation digital products, combining clean modular engineering with visual excellence.</p>
+                <div class="footer-socials">
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="twitter"></i></a>
+                    <a href="#"><i data-lucide="github"></i></a>
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#process">Development Process</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Global Support</h4>
+                <p>Have an urgent support issue or server emergency? Our dedicated support team is available 24/7.</p>
+                <a href="mailto:qubiralabs@gmail.com" class="support-btn"><i data-lucide="help-circle"></i> Support Portal</a>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Qubira Labs. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- MODAL 1: Career Application Form Modal -->
+    <div class="modal-overlay" id="apply-modal">
+        <div class="modal-card glass-panel">
+            <button class="modal-close" onclick="closeApplyModal()"><i data-lucide="x"></i></button>
+            <div class="modal-header">
+                <h3>Apply for Position</h3>
+                <h4 id="apply-job-title" class="text-gradient">Senior Full-Stack Engineer</h4>
+            </div>
+            <form id="apply-form" onsubmit="handleApplySubmit(event)">
+                <input type="hidden" id="job-title-hidden" name="job_title">
+                
+                <div class="form-group">
+                    <label for="apply-name">Full Name <span class="required">*</span></label>
+                    <input type="text" id="apply-name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="apply-email">Email Address <span class="required">*</span></label>
+                    <input type="email" id="apply-email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apply-phone">Phone Number <span class="required">*</span></label>
+                    <input type="tel" id="apply-phone" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="apply-experience">Experience (Years) <span class="required">*</span></label>
+                        <input type="number" id="apply-experience" min="0" max="30" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apply-resume">Resume/CV URL <span class="required">*</span></label>
+                        <input type="url" id="apply-resume" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="apply-portfolio">Portfolio / GitHub Link</label>
+                    <input type="url" id="apply-portfolio">
+                </div>
+
+                <div class="form-group">
+                    <label for="apply-cover">Brief Cover Note</label>
+                    <textarea id="apply-cover" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+            </form>
+            <div id="apply-success-msg" class="success-banner hidden">
+                <i data-lucide="check-circle-2"></i>
+                <div>
+                    <h4>Application Received!</h4>
+                    <p>Your application was submitted successfully. Our HR team will review it and follow up shortly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL 2: Book a Consultation Scheduler Modal -->
+    <div class="modal-overlay" id="booking-modal">
+        <div class="modal-card glass-panel">
+            <button class="modal-close" onclick="closeBookingModal()"><i data-lucide="x"></i></button>
+            <div class="modal-header">
+                <h3>Book a Tech Consultation</h3>
+                <p>Select your preferred slot to connect with our solutions engineer.</p>
+            </div>
+            
+            <form id="booking-form" onsubmit="handleBookingSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="book-date">Select Date <span class="required">*</span></label>
+                        <input type="date" id="book-date" required min="2026-07-17">
+                    </div>
+                    <div class="form-group">
+                        <label for="book-time">Select Time (IST) <span class="required">*</span></label>
+                        <select id="book-time" required>
+                            <option value="">-- Choose Slot --</option>
+                            <option value="10:00 AM">10:00 AM - 10:30 AM</option>
+                            <option value="11:30 AM">11:30 AM - 12:00 PM</option>
+                            <option value="02:00 PM">02:00 PM - 02:30 PM</option>
+                            <option value="03:30 PM">03:30 PM - 04:00 PM</option>
+                            <option value="05:00 PM">05:00 PM - 05:30 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="book-name">Your Name <span class="required">*</span></label>
+                    <input type="text" id="book-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="book-email">Your Email <span class="required">*</span></label>
+                    <input type="email" id="book-email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="book-desc">Briefly describe your project/technical challenges</label>
+                    <textarea id="book-desc" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">Confirm Appointment</button>
+            </form>
+
+            <div id="booking-success-msg" class="success-banner hidden">
+                <i data-lucide="calendar-check"></i>
+                <div>
+                    <h4>Consultation Booked!</h4>
+                    <p>An invite link and details have been sent to your email. We look forward to meeting you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script connection -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
