@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initMobileNav();
     initTechTabs();
     initBookingFormConstraint();
+    initSmoothScroll();
 });
 
 // NAVBAR SCROLL EFFECT
@@ -321,6 +322,47 @@ function selectServiceAndScroll(serviceName) {
     }
     const contactSection = document.getElementById('contact');
     if (contactSection) {
-        contactSection.scrollIntoView({ behavior: 'smooth' });
+        const header = document.getElementById('header');
+        const headerOffset = header ? header.offsetHeight : 72;
+        const elementPosition = contactSection.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
     }
+}
+
+// SMOOTH SCROLLING FOR ANCHOR LINKS WITH HEADER OFFSET
+function initSmoothScroll() {
+    const header = document.getElementById('header');
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return; // Skip empty links
+            
+            e.preventDefault();
+            
+            if (targetId === '#home') {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+                return;
+            }
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                const headerOffset = header ? header.offsetHeight : 72;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
 }
